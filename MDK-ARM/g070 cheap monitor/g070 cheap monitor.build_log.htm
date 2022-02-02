@@ -1,0 +1,320 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: �Vision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Anton Sorokin, -, LIC=HN0AE-5S500-BSNYX-H5I87-YMS30-SK9NL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+D:\ARM32 Proj\g070 cheap ox mon 12 03 2021\MDK-ARM\g070 cheap monitor.uvprojx
+Project File Date:  02/04/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'g070 cheap monitor'
+assembling startup_stm32g070xx.s...
+compiling stm32g0xx_it.c...
+compiling stm32g0xx_hal_msp.c...
+compiling main.c...
+../Core/Src/main.c(191): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x01){HAL_GPIO_WritePin(
+egA_GPIO_Port,
+egA_Pin,0);}else{HAL_GPIO_WritePin(SegA_GPIO_Port,SegA_Pin,1);};
+../Core/Src/main.c(191): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x01){HAL_GPIO_WritePin(
+egA_GPIO_Port,
+egA_Pin,0);}else{HAL_GPIO_WritePin(
+egA_GPIO_Port,
+egA_Pin,1);};
+../Core/Src/main.c(192): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x02){HAL_GPIO_WritePin(
+egB_GPIO_Port,
+egB_Pin,0);}else{HAL_GPIO_WritePin(SegB_GPIO_Port,SegB_Pin,1);};
+../Core/Src/main.c(192): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x02){HAL_GPIO_WritePin(
+egB_GPIO_Port,
+egB_Pin,0);}else{HAL_GPIO_WritePin(
+egB_GPIO_Port,
+egB_Pin,1);};
+../Core/Src/main.c(193): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x04){HAL_GPIO_WritePin(
+egC_GPIO_Port,
+egC_Pin,0);}else{HAL_GPIO_WritePin(SegC_GPIO_Port,SegC_Pin,1);};
+../Core/Src/main.c(193): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x04){HAL_GPIO_WritePin(
+egC_GPIO_Port,
+egC_Pin,0);}else{HAL_GPIO_WritePin(
+egC_GPIO_Port,
+egC_Pin,1);};
+../Core/Src/main.c(194): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x08){HAL_GPIO_WritePin(
+egD_GPIO_Port,
+egD_Pin,0);}else{HAL_GPIO_WritePin(SegD_GPIO_Port,SegD_Pin,1);};
+../Core/Src/main.c(194): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x08){HAL_GPIO_WritePin(
+egD_GPIO_Port,
+egD_Pin,0);}else{HAL_GPIO_WritePin(
+egD_GPIO_Port,
+egD_Pin,1);};
+../Core/Src/main.c(195): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x10){HAL_GPIO_WritePin(
+egE_GPIO_Port,
+egE_Pin,0);}else{HAL_GPIO_WritePin(SegE_GPIO_Port,SegE_Pin,1);};
+../Core/Src/main.c(195): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x10){HAL_GPIO_WritePin(
+egE_GPIO_Port,
+egE_Pin,0);}else{HAL_GPIO_WritePin(
+egE_GPIO_Port,
+egE_Pin,1);};
+../Core/Src/main.c(196): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x20){HAL_GPIO_WritePin(
+egF_GPIO_Port,
+egF_Pin,0);}else{HAL_GPIO_WritePin(SegF_GPIO_Port,SegF_Pin,1);};
+../Core/Src/main.c(196): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x20){HAL_GPIO_WritePin(
+egF_GPIO_Port,
+egF_Pin,0);}else{HAL_GPIO_WritePin(
+egF_GPIO_Port,
+egF_Pin,1);};
+../Core/Src/main.c(197): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x40){HAL_GPIO_WritePin(
+egG_GPIO_Port,
+egG_Pin,0);}else{HAL_GPIO_WritePin(SegG_GPIO_Port,SegG_Pin,1);};
+../Core/Src/main.c(197): warning:  #188-D: enumerated type mixed with another type
+  		if(displnum&0x40){HAL_GPIO_WritePin(
+egG_GPIO_Port,
+egG_Pin,0);}else{HAL_GPIO_WritePin(
+egG_GPIO_Port,
+egG_Pin,1);};
+../Core/Src/main.c(209): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egA_GPIO_Port,
+egA_Pin,0);
+../Core/Src/main.c(210): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egB_GPIO_Port,
+egB_Pin,0);
+../Core/Src/main.c(211): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egC_GPIO_Port,
+egC_Pin,0);
+../Core/Src/main.c(212): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egD_GPIO_Port,
+egD_Pin,0);
+../Core/Src/main.c(213): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egE_GPIO_Port,
+egE_Pin,0);
+../Core/Src/main.c(214): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egF_GPIO_Port,
+egF_Pin,0);
+../Core/Src/main.c(215): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egG_GPIO_Port,
+egG_Pin,0);
+../Core/Src/main.c(216): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+egDP_GPIO_Port,
+egDP_Pin,0);
+../Core/Src/main.c(219): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_1_GPIO_Port,
+_1_Pin,0);	
+../Core/Src/main.c(220): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_2_GPIO_Port,
+_2_Pin,0);
+../Core/Src/main.c(221): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_3_GPIO_Port,
+_3_Pin,0);
+../Core/Src/main.c(222): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_4_GPIO_Port,
+_4_Pin,0);
+../Core/Src/main.c(223): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_5_GPIO_Port,
+_5_Pin,0);
+../Core/Src/main.c(224): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_6_GPIO_Port,
+_6_Pin,0);
+../Core/Src/main.c(227): warning:  #188-D: enumerated type mixed with another type
+  					HAL_GPIO_WritePin(
+edLed_GPIO_Port,
+edLed_Pin,1);//Врубаем красный светодиод
+../Core/Src/main.c(233): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+edLed_GPIO_Port,
+edLed_Pin,0);//Вырубаем красный светодиод
+../Core/Src/main.c(235): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+RLed_GPIO_Port,
+RLed_Pin,1);//включаем инфракрасный
+../Core/Src/main.c(240): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+RLed_GPIO_Port,
+RLed_Pin,0);//выключаем инфракрасный
+../Core/Src/main.c(381): warning:  #188-D: enumerated type mixed with another type
+  				HAL_GPIO_WritePin(
+_1_GPIO_Port,
+_1_Pin,1);//включаем первый индикатор
+../Core/Src/main.c(382): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_2_GPIO_Port,
+_2_Pin,0);//включаем первый индикатор
+../Core/Src/main.c(383): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_3_GPIO_Port,
+_3_Pin,0);//включаем первый индикатор
+../Core/Src/main.c(387): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+egDP_GPIO_Port,
+egDP_Pin,1);
+../Core/Src/main.c(391): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+egDP_GPIO_Port,
+egDP_Pin,1);
+../Core/Src/main.c(395): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_1_GPIO_Port,
+_1_Pin,0);//выключаем первый индикатор
+../Core/Src/main.c(396): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_2_GPIO_Port,
+_2_Pin,1);//включаем второй индикатор
+../Core/Src/main.c(397): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_3_GPIO_Port,
+_3_Pin,0);//выключаем третий индикатор
+../Core/Src/main.c(401): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+egDP_GPIO_Port,
+egDP_Pin,1);
+../Core/Src/main.c(405): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(
+egDP_GPIO_Port,
+egDP_Pin,1);
+../Core/Src/main.c(409): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_1_GPIO_Port,
+_1_Pin,0);//выключаем первый индикатор
+../Core/Src/main.c(410): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_2_GPIO_Port,
+_2_Pin,0);//выключаем второй индикатор
+../Core/Src/main.c(411): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+_3_GPIO_Port,
+_3_Pin,1);//включаем третий индикатор
+../Core/Src/main.c(413): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+egDP_GPIO_Port,
+egDP_Pin,!reddot);//включаем точку - показываем, что пульс идет
+../Core/Src/main.c(472): warning:  #223-D: function "snprintf" declared implicitly
+  	lv=snprintf(txt,255,"\r\nLED Pulce Ox Meter\r\n");
+../Core/Src/main.c(473): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(475): warning:  #188-D: enumerated type mixed with another type
+  HAL_GPIO_WritePin(
+mplPower_GPIO_Port,
+mplPower_Pin,1);
+../Core/Src/main.c(498): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(502): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(506): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(510): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(517): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(520): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(525): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(528): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(533): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(536): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(541): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(544): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c(550): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Transmit(&huart2,txt,lv,100);
+../Core/Src/main.c: 62 warnings, 0 errors
+compiling stm32g0xx_ll_adc.c...
+compiling stm32g0xx_hal_adc_ex.c...
+compiling stm32g0xx_hal_adc.c...
+compiling stm32g0xx_hal_rcc.c...
+compiling stm32g0xx_ll_rcc.c...
+compiling stm32g0xx_hal_rcc_ex.c...
+compiling stm32g0xx_hal_flash_ex.c...
+compiling stm32g0xx_hal_flash.c...
+compiling stm32g0xx_hal_gpio.c...
+compiling stm32g0xx_ll_dma.c...
+compiling stm32g0xx_hal_dma_ex.c...
+compiling stm32g0xx_hal_dma.c...
+compiling stm32g0xx_hal_pwr.c...
+compiling stm32g0xx_hal_cortex.c...
+compiling stm32g0xx_hal_pwr_ex.c...
+compiling stm32g0xx_hal.c...
+compiling stm32g0xx_hal_exti.c...
+compiling stm32g0xx_hal_iwdg.c...
+compiling stm32g0xx_hal_tim.c...
+compiling stm32g0xx_hal_tim_ex.c...
+compiling stm32g0xx_hal_uart.c...
+compiling stm32g0xx_hal_uart_ex.c...
+compiling system_stm32g0xx.c...
+linking...
+Program Size: Code=11884 RO-data=472 RW-data=132 ZI-data=36524  
+FromELF: creating hex file...
+"g070 cheap monitor\g070 cheap monitor.axf" - 0 Error(s), 62 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32G0xx_DFP.1.2.0.pack
+                Keil.STM32G0xx_DFP.1.2.0
+                STMicroelectronics STM32G0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_g070_cheap_monitor
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:39
+</pre>
+</body>
+</html>
